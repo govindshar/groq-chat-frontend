@@ -1,0 +1,58 @@
+.page-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 60px auto;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.page-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #7ffcff;
+}
+
+.page-container p {
+  line-height: 1.7;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.team {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.05);
+}
+
+.team h3 {
+  margin-bottom: 10px;
+  color: #4ade80;
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 20px;
+    margin: 30px 15px;
+  }
+
+  .page-container h1 {
+    font-size: 24px;
+  }
+
+  .page-container p {
+    font-size: 16px;
+  }
+
+  .team h3 {
+    font-size: 18px;
+  }
+}
