@@ -47,7 +47,7 @@ function Chat() {
       setResponse(reply);
       setInput("");
 
-      await axios.post("http://localhost:5000/save-chat", {
+      await axios.post("https://groq-chat-backend-h75a.onrender.com/save-chat", {
         prompt: input,
         response: reply,
         timestamp,
