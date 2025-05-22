@@ -34,7 +34,7 @@ function Chat() {
     const timestamp = new Date().toLocaleString();
 
     try {
-      const res = await axios.post("http://localhost:5000/chat", {
+      const res = await axios.post("https://groq-chat-backend-h75a.onrender.com/chat", {
         prompt: input,
       });
 
